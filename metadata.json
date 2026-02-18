@@ -1,0 +1,5 @@
+{
+  "name": "SprintFlow AI",
+  "description": "A sophisticated work sprint planner that allows for granular, AI-optimized pomodoro structures. Design custom focus blocks and breaks, assign specific tasks, and use Gemini to intelligently breakdown your workload into the perfect sprint rhythm.",
+  "requestFramePermissions": []
+}
