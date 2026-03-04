@@ -85,7 +85,7 @@ const SidebarManager: React.FC<SidebarManagerProps> = ({ tasks, setTasks, breakI
           ) : (
             brainDump.map((item, i) => (
               <div key={i} className="group p-4 bg-rose-500/5 border border-rose-500/20 rounded-2xl flex items-center justify-between animate-in slide-in-from-right-2">
-                <span className="text-xs text-rose-200 italic font-mono leading-relaxed">>> {item}</span>
+                <span className="text-xs text-rose-200 italic font-mono leading-relaxed">{'>> '}{item}</span>
                 <button 
                   onClick={() => setBrainDump(brainDump.filter((_, idx) => idx !== i))} 
                   className="text-rose-900 hover:text-rose-500 transition-colors opacity-0 group-hover:opacity-100 p-1"
